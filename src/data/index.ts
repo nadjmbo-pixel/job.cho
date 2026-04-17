@@ -1,4 +1,4 @@
-import { Job, Company, BlogPost, Category, FAQ, Testimonial, Notification, Stat } from '@/types';
+import type { Job, Company, BlogPost, Category, FAQ, Testimonial, Notification, Stat } from '@/types';
 
 export const stats: Stat[] = [
   { label: 'وظيفة متاحة', value: 12500, suffix: '+' },

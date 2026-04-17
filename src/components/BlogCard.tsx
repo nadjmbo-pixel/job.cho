@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Calendar, User, ArrowLeft } from 'lucide-react';
-import { BlogPost } from '@/types';
+import type { BlogPost } from '@/types';
 
 interface BlogCardProps {
   post: BlogPost;

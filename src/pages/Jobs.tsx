@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import {
   Search,
   MapPin,
-  Filter,
   SlidersHorizontal,
   X,
 } from 'lucide-react';

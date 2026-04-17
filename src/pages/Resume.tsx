@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import {
-  Plus,
-  Trash2,
   Edit3,
   Save,
   GraduationCap,
@@ -13,7 +11,6 @@ import {
   Phone,
   MapPin,
   Download,
-  Eye,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
@@ -22,7 +19,7 @@ import SectionHeader from '@/components/SectionHeader';
 
 export default function Resume() {
   const [isEditing, setIsEditing] = useState(false);
-  const [resume, setResume] = useState({
+  const [resume] = useState({
     personal: {
       name: 'أحمد بن علي',
       email: 'ahmed@email.com',

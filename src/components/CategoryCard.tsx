@@ -14,7 +14,7 @@ import {
   Palette,
   Scale,
 } from 'lucide-react';
-import { Category } from '@/types';
+import type { Category } from '@/types';
 
 const iconMap: { [key: string]: React.ElementType } = {
   Laptop,

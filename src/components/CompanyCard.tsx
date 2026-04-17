@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { MapPin, Star, Briefcase } from 'lucide-react';
-import { Company } from '@/types';
+import type { Company } from '@/types';
 import { Button } from '@/components/ui/button';
 
 interface CompanyCardProps {

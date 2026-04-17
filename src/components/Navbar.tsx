@@ -6,13 +6,11 @@ import {
   X,
   Search,
   Bell,
-  User,
   Briefcase,
   Building2,
   Home,
   BookOpen,
   Phone,
-  ChevronDown,
   LogIn,
   UserPlus,
 } from 'lucide-react';

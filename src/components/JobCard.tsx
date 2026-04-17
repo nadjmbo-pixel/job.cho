@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { MapPin, Clock, DollarSign, Bookmark, BookmarkCheck } from 'lucide-react';
-import { Job } from '@/types';
+import type { Job } from '@/types';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 
